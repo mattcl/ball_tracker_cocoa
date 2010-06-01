@@ -1,0 +1,890 @@
+TCVOCV
+v7
+r0
+t297043235.659212
+cCheck dependencies
+cProcessInfoPlistFile /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Info.plist Info.plist
+cStripNIB /Users/admin/Downloads/CVOCV/English.lproj/MainMenu.nib
+cCopyStringsFile /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Debug/CVOCV.app/Contents/Resources/libs libs
+cCpResource build/Debug/CVOCV.app/Contents/Resources/README.txt README.txt
+cCpResource build/Debug/CVOCV.app/Contents/Resources/UPDATES.txt UPDATES.txt
+cProcessPCH /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-cbquboukxyorypbtrqmzolapeeud/CVOCV_Prefix.pch.gch CVOCV_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH++ /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-ekmuhmnnmrkpzmfidjcjhdqtqwse/CVOCV_Prefix.pch.gch CVOCV_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-ajwxcdqopbmqckbadqbqdryrhiih/CVOCV_Prefix.pch.gch CVOCV_Prefix.pch normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/main.o /Users/admin/Downloads/CVOCV/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CVOCVController.o /Users/admin/Downloads/CVOCV/CVOCVController.m normal i386 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/OpenCVProcessor.o /Users/admin/Downloads/CVOCV/OpenCVProcessor.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CVOCVView.o /Users/admin/Downloads/CVOCV/CVOCVView.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CGImageWrapper.o /Users/admin/Downloads/CVOCV/CGImageWrapper.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/Tracker.o /Users/admin/Downloads/CVOCV/Tracker.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/client.o /Users/admin/Downloads/CVOCV/client.c normal i386 c com.apple.compilers.llvmgcc42
+cLd /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/MacOS/CVOCV normal i386
+cTouch /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004A49A9E400000000000000EE
+t1246341604
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c000000004702C63B0000000000001654
+t1191364155
+s5716
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/QTKit.framework/Headers/QTKit.h
+c000000004864C3220000000000000418
+t1214563106
+s1048
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c0000000047BB1D140000000000000100
+t1203445012
+s256
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/assert.h
+c0000000047BA99300000000000000DCB
+t1203411248
+s3531
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/fcntl.h
+c0000000047BA993000000000000003EA
+t1203411248
+s1002
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/float.h
+c0000000047BA99300000000000001F2C
+t1203411248
+s7980
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/math.h
+c0000000047BA987000000000000004B7
+t1203411056
+s1207
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/netdb.h
+c00000000464386E20000000000002F2B
+t1178830562
+s12075
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/netinet/in.h
+c0000000047E883C30000000000005346
+t1206420419
+s21318
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdio.h
+c0000000047BA99310000000000003D1D
+t1203411249
+s15645
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdlib.h
+c0000000047BA99310000000000002A79
+t1203411249
+s10873
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/string.h
+c0000000047BA99320000000000001731
+t1203411250
+s5937
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/strings.h
+c0000000047BA99300000000000000DA4
+t1203411248
+s3492
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/socket.h
+c0000000047E883D1000000000000559B
+t1206420433
+s21915
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/time.h
+c0000000047E883D20000000000001E18
+t1206420434
+s7704
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/types.h
+c0000000047E883D2000000000000290F
+t1206420434
+s10511
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/time.h
+c0000000047BA9932000000000000178E
+t1203411250
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/emmintrin.h
+c000000004A582D14000000000000EAA5
+t1247292692
+s60069
+
+N/Developer/SDKs/MacOSX10.6.sdk/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004A582D140000000000001538
+t1247292692
+s5432
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c000000004A73D92A0000000000001658
+t1249106218
+s5720
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QTKit.framework/Headers/QTKit.h
+c000000004A67D618000000000000044A
+t1248319000
+s1098
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c000000004A1249D30000000000000124
+t1242712531
+s292
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004A5C14A60000000000000DCB
+t1247548582
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004A5C14A600000000000003EA
+t1247548582
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netdb.h
+c000000004A4181220000000000003057
+t1245806882
+s12375
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004A73D64C000000000000539D
+t1249105484
+s21405
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/strings.h
+c000000004A5C14A60000000000000DA4
+t1247548582
+s3492
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004A73D65400000000000059BC
+t1249105492
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004A73D6550000000000001E17
+t1249105493
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004A73D6550000000000002905
+t1249105493
+s10501
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004A5D68960000000000776D30
+t1247635606
+s7826736
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004A583A5000000000000A9F20
+t1247296080
+s696096
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004A73D93D0000000000040130
+t1249106237
+s262448
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000004A67D60D0000000000662110
+t1248318989
+s6693136
+
+N/System/Library/Frameworks/Quartz.framework/Quartz
+c000000004A1249D4000000000000A5F0
+t1242712532
+s42480
+
+N/Users/admin/Downloads/CVOCV/CGImageWrapper.h
+c0000000049737D290000000000000131
+t1232305449
+s305
+i<Cocoa/Cocoa.h>
+
+N/Users/admin/Downloads/CVOCV/CGImageWrapper.m
+c00000000497379850000000000000194
+t1232304517
+s404
+i"CGImageWrapper.h"
+
+N/Users/admin/Downloads/CVOCV/CVOCVController.h
+c000000004C044A750000000000000C2A
+t1275349621
+s3114
+i"cv.h"
+i<Cocoa/Cocoa.h>
+i<QTKit/QTkit.h>
+i<Quartz/Quartz.h>
+i<sys/time.h>
+i"CVOCVView.h"
+i"Tracker.h"
+
+N/Users/admin/Downloads/CVOCV/CVOCVController.m
+c000000004C044D9E0000000000003FCC
+t1275350430
+s16332
+i"cv.h"
+i"CVOCVController.h"
+i"OpenCVProcessor.h"
+i"CGImageWrapper.h"
+i"Tracker.h"
+i<sys/time.h>
+
+N/Users/admin/Downloads/CVOCV/CVOCVView.h
+c000000004C03BAFB00000000000004C8
+t1275312891
+s1224
+i"cv.h"
+i<Cocoa/Cocoa.h>
+
+N/Users/admin/Downloads/CVOCV/CVOCVView.m
+c000000004C03BAE100000000000018EE
+t1275312865
+s6382
+i<OpenGL/OpenGL.h>
+i"CVOCVView.h"
+i"CVOCVController.h"
+
+N/Users/admin/Downloads/CVOCV/CVOCV_Prefix.pch
+c0000000048FE55E2000000000000004D
+t1224627682
+s77
+i<Cocoa/Cocoa.h>
+i<QTKit/QTKit.h>
+
+N/Users/admin/Downloads/CVOCV/English.lproj/InfoPlist.strings
+c00000000495505BF00000000000000CE
+t1230308799
+s206
+
+N/Users/admin/Downloads/CVOCV/English.lproj/MainMenu.nib
+c000000004C044D670000000000000088
+t1275350375
+s136
+
+N/Users/admin/Downloads/CVOCV/Icon.icns
+c0000000048FE5788000000000002C4DF
+t1224628104
+s181471
+
+N/Users/admin/Downloads/CVOCV/OpenCVProcessor.h
+c000000004C03D19B0000000000000726
+t1275318683
+s1830
+i<Cocoa/Cocoa.h>
+
+N/Users/admin/Downloads/CVOCV/OpenCVProcessor.m
+c000000004C03DF060000000000009073
+t1275322118
+s36979
+i"cv.h"
+i"CVOCVController.h"
+i"OpenCVProcessor.h"
+
+N/Users/admin/Downloads/CVOCV/README.txt
+c00000000497B3CFC0000000000000935
+t1232813308
+s2357
+
+N/Users/admin/Downloads/CVOCV/Tracker.h
+c000000004C04491400000000000004F9
+t1275349268
+s1273
+i<Cocoa/Cocoa.h>
+i"cv.h"
+
+N/Users/admin/Downloads/CVOCV/Tracker.m
+c000000004C04493B00000000000013FD
+t1275349307
+s5117
+i"Tracker.h"
+i"cv.h"
+
+N/Users/admin/Downloads/CVOCV/UPDATES.txt
+c0000000049A5233F0000000000000235
+t1235559231
+s565
+
+N/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CGImageWrapper.o
+t1275341344
+s6076
+
+N/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CVOCV.LinkFileList
+c000000004C04038400000000000002AE
+t1275331460
+s686
+
+N/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CVOCVController.o
+t1275350432
+s80104
+
+N/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CVOCVView.o
+t1275349785
+s43992
+
+N/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/OpenCVProcessor.o
+t1275349785
+s90128
+
+N/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/Tracker.o
+t1275349786
+s33264
+
+N/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/client.o
+t1275341344
+s5424
+
+N/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/main.o
+t1275341343
+s1788
+
+N/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/tracker.o
+t2
+s0
+
+N/Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app
+t1275350432
+s102
+
+N/Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Info.plist
+t1274916774
+s1001
+
+N/Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/MacOS/CVOCV
+t1275350432
+s3402740
+
+N/Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/PkgInfo
+t1274916774
+s8
+
+N/Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1274916776
+s206
+
+N/Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/English.lproj/MainMenu.nib
+t1275350432
+s47297
+
+N/Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/Icon.icns
+t1274916776
+s181471
+
+N/Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/README.txt
+t1274916776
+s2357
+
+N/Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/UPDATES.txt
+t1274916776
+s565
+
+N/Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/libs
+t1274916776
+s102
+
+N/Users/admin/Downloads/CVOCV/client.c
+c000000004C0428300000000000000615
+t1275340848
+s1557
+i<stdio.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<netinet/in.h>
+i<netdb.h>
+i<strings.h>
+i<string.h>
+i<stdlib.h>
+i<fcntl.h>
+
+N/Users/admin/Downloads/CVOCV/libs
+c000000004BFDAF840000000000000088
+t1274916740
+s136
+
+N/Users/admin/Downloads/CVOCV/libs/opencv/include/cv.h
+c00000000451AAF62000000000000D330
+t1159376738
+s54064
+i<chdl.h>
+i"cxcore.h"
+i"cvtypes.h"
+i"cv.hpp"
+i"cvcompat.h"
+
+N/Users/admin/Downloads/CVOCV/libs/opencv/include/cv.hpp
+c0000000044FF06B80000000000003D9B
+t1157564088
+s15771
+
+N/Users/admin/Downloads/CVOCV/libs/opencv/include/cvcompat.h
+c0000000044B527F60000000000009ED4
+t1152722934
+s40660
+i<string.h>
+
+N/Users/admin/Downloads/CVOCV/libs/opencv/include/cvtypes.h
+c000000004383587A00000000000030C4
+t1132681338
+s12484
+i<assert.h>
+i<stdlib.h>
+
+N/Users/admin/Downloads/CVOCV/libs/opencv/include/cvver.h
+c00000000452E9DCC0000000000000942
+t1160682956
+s2370
+
+N/Users/admin/Downloads/CVOCV/libs/opencv/include/cxcore.h
+c000000004518FABE0000000000011E0D
+t1159264958
+s73229
+i"ipl.h"
+i"ipl/ipl.h"
+i"cxtypes.h"
+i"cxerror.h"
+i"cvver.h"
+i"cxcore.hpp"
+
+N/Users/admin/Downloads/CVOCV/libs/opencv/include/cxcore.hpp
+c0000000045268BB8000000000000300B
+t1160154040
+s12299
+
+N/Users/admin/Downloads/CVOCV/libs/opencv/include/cxerror.h
+c0000000043E37DF000000000000021F4
+t1138982384
+s8692
+
+N/Users/admin/Downloads/CVOCV/libs/opencv/include/cxtypes.h
+c0000000045019C0E000000000000C9F0
+t1157733390
+s51696
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<mathimf.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+
+N/Users/admin/Downloads/CVOCV/main.m
+c0000000048FE55E50000000000000079
+t1224627685
+s121
+i<Cocoa/Cocoa.h>
+
+N/Users/admin/Downloads/CVOCV/tracker.cpp
+c000000004C0193D80000000000001F60
+t1275171800
+s8032
+i"tracker.h"
+i<OpenCV/cv.h>
+i<OpenCV/highgui.h>
+
+N/Users/admin/Downloads/CVOCV/tracker.h
+c000000004C03CD000000000000000894
+t1275317504
+s2196
+i"cv.h"
+i<time.h>
+i<stdio.h>
+
+N/var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-ajwxcdqopbmqckbadqbqdryrhiih/CVOCV_Prefix.pch.gch
+t1275341340
+s1352048
+
+N/var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-astwdtszesqdcmcpobpolflzskis/CVOCV_Prefix.pch.gch
+t1275331460
+s1352048
+
+N/var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-bdwjrdyeooeghdhivclnrebhwuyo/CVOCV_Prefix.pch.gch
+t1274916796
+s55941552
+
+N/var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-cbquboukxyorypbtrqmzolapeeud/CVOCV_Prefix.pch.gch
+t1275341339
+s58249008
+
+N/var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-digsfdsjscderzabclmrstjkutdj/CVOCV_Prefix.pch.gch
+t1274916798
+s66275760
+
+N/var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-ekmuhmnnmrkpzmfidjcjhdqtqwse/CVOCV_Prefix.pch.gch
+t1275341342
+s69680848
+
+N/var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-hdsxtcgusxunwldfdfxacmuuamiv/CVOCV_Prefix.pch.gch
+t1275317399
+s1671536
+
+NInfo.plist
+c000000004955060C0000000000000400
+t1230308876
+s1024
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies297043235#297043235#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CGImageWrapper.o /Users/admin/Downloads/CVOCV/CGImageWrapper.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s297034143.835695
+e297034144.070955
+r1
+xCompileC
+xbuild/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CGImageWrapper.o
+x/Users/admin/Downloads/CVOCV/CGImageWrapper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@53"Compile /Users/admin/Downloads/CVOCV/CGImageWrapper.m297034143#297034144#0(0"0(0#0#45"/Users/admin/Downloads/CVOCV/CGImageWrapper.m4300882208#1055"    cd /Users/admin/Downloads/CVOCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/CVOCV.hmap -F/Users/admin/Downloads/CVOCV/build/Debug -I/Users/admin/Downloads/CVOCV/build/Debug/include -Ilibs/opencv/include -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources/i386 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-cbquboukxyorypbtrqmzolapeeud/CVOCV_Prefix.pch -c /Users/admin/Downloads/CVOCV/CGImageWrapper.m -o /Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CGImageWrapper.o0#
+
+CCompileC build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CVOCVController.o /Users/admin/Downloads/CVOCV/CVOCVController.m normal i386 objective-c++ com.apple.compilers.llvmgcc42
+s297043232.268738
+e297043232.657383
+r1
+xCompileC
+xbuild/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CVOCVController.o
+x/Users/admin/Downloads/CVOCV/CVOCVController.m
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF07#2@54"Compile /Users/admin/Downloads/CVOCV/CVOCVController.m297043232#297043232#0(95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done0(0#0#46"/Users/admin/Downloads/CVOCV/CVOCVController.m4300882208#1115"    cd /Users/admin/Downloads/CVOCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/CVOCV.hmap -F/Users/admin/Downloads/CVOCV/build/Debug -I/Users/admin/Downloads/CVOCV/build/Debug/include -Ilibs/opencv/include -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources/i386 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources -D__MACOSX_CORE__ -lpthread -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-ekmuhmnnmrkpzmfidjcjhdqtqwse/CVOCV_Prefix.pch -c /Users/admin/Downloads/CVOCV/CVOCVController.m -o /Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CVOCVController.o0#
+
+CCompileC build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CVOCVView.o /Users/admin/Downloads/CVOCV/CVOCVView.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s297042563.902950
+e297042585.321886
+r1
+xCompileC
+xbuild/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CVOCVView.o
+x/Users/admin/Downloads/CVOCV/CVOCVView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/admin/Downloads/CVOCV/CVOCVView.m: In function '-[CVOCVView mouseDown:]':
+o/Users/admin/Downloads/CVOCV/CVOCVView.m:232: warning: unused variable 'y'
+o/Users/admin/Downloads/CVOCV/CVOCVView.m:231: warning: unused variable 'x'
+o/Users/admin/Downloads/CVOCV/CVOCVView.m: In function '-[CVOCVView mouseDragged:]':
+o/Users/admin/Downloads/CVOCV/CVOCVView.m:242: warning: unused variable 'y'
+o/Users/admin/Downloads/CVOCV/CVOCVView.m:241: warning: unused variable 'x'
+lSLF07#2@48"Compile /Users/admin/Downloads/CVOCV/CVOCVView.m297042563#297042585#0(465"/Users/admin/Downloads/CVOCV/CVOCVView.m: In function '-[CVOCVView mouseDown:]':/Users/admin/Downloads/CVOCV/CVOCVView.m:232: warning: unused variable 'y'/Users/admin/Downloads/CVOCV/CVOCVView.m:231: warning: unused variable 'x'/Users/admin/Downloads/CVOCV/CVOCVView.m: In function '-[CVOCVView mouseDragged:]':/Users/admin/Downloads/CVOCV/CVOCVView.m:242: warning: unused variable 'y'/Users/admin/Downloads/CVOCV/CVOCVView.m:241: warning: unused variable 'x'4(22@19"Unused variable 'y'297042567#81#75#0(6@40"/Users/admin/Downloads/CVOCV/CVOCVView.m297005665#232#0#232#0#19"unused variable '*'0(22@19"Unused variable 'x'297042567#156#75#0(6@40"/Users/admin/Downloads/CVOCV/CVOCVView.m297005665#231#0#231#0#19"unused variable '*'0(22@19"Unused variable 'y'297042567#315#75#0(6@40"/Users/admin/Downloads/CVOCV/CVOCVView.m297005665#242#0#242#0#19"unused variable '*'0(22@19"Unused variable 'x'297042567#390#75#0(6@40"/Users/admin/Downloads/CVOCV/CVOCVView.m297005665#241#0#241#0#19"unused variable '*'0(0#0#40"/Users/admin/Downloads/CVOCV/CVOCVView.m4300882208#1045"    cd /Users/admin/Downloads/CVOCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/CVOCV.hmap -F/Users/admin/Downloads/CVOCV/build/Debug -I/Users/admin/Downloads/CVOCV/build/Debug/include -Ilibs/opencv/include -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources/i386 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-cbquboukxyorypbtrqmzolapeeud/CVOCV_Prefix.pch -c /Users/admin/Downloads/CVOCV/CVOCVView.m -o /Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CVOCVView.o0#
+
+CCompileC build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/OpenCVProcessor.o /Users/admin/Downloads/CVOCV/OpenCVProcessor.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s297042561.588991
+e297042585.424549
+r1
+xCompileC
+xbuild/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/OpenCVProcessor.o
+x/Users/admin/Downloads/CVOCV/OpenCVProcessor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@54"Compile /Users/admin/Downloads/CVOCV/OpenCVProcessor.m297042561#297042585#0(0"0(0#0#46"/Users/admin/Downloads/CVOCV/OpenCVProcessor.m4300882208#1057"    cd /Users/admin/Downloads/CVOCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/CVOCV.hmap -F/Users/admin/Downloads/CVOCV/build/Debug -I/Users/admin/Downloads/CVOCV/build/Debug/include -Ilibs/opencv/include -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources/i386 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-cbquboukxyorypbtrqmzolapeeud/CVOCV_Prefix.pch -c /Users/admin/Downloads/CVOCV/OpenCVProcessor.m -o /Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/OpenCVProcessor.o0#
+
+CCompileC build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/Tracker.o /Users/admin/Downloads/CVOCV/Tracker.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s297042585.322160
+e297042586.967474
+r1
+xCompileC
+xbuild/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/Tracker.o
+x/Users/admin/Downloads/CVOCV/Tracker.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@46"Compile /Users/admin/Downloads/CVOCV/Tracker.m297042585#297042586#0(0"0(0#0#38"/Users/admin/Downloads/CVOCV/Tracker.m4300882208#1041"    cd /Users/admin/Downloads/CVOCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/CVOCV.hmap -F/Users/admin/Downloads/CVOCV/build/Debug -I/Users/admin/Downloads/CVOCV/build/Debug/include -Ilibs/opencv/include -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources/i386 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-cbquboukxyorypbtrqmzolapeeud/CVOCV_Prefix.pch -c /Users/admin/Downloads/CVOCV/Tracker.m -o /Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/Tracker.o0#
+
+CCompileC build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/client.o /Users/admin/Downloads/CVOCV/client.c normal i386 c com.apple.compilers.llvmgcc42
+s297034144.071136
+e297034144.143465
+r1
+xCompileC
+xbuild/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/client.o
+x/Users/admin/Downloads/CVOCV/client.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+o/Users/admin/Downloads/CVOCV/client.c: In function 'connect_client':
+o/Users/admin/Downloads/CVOCV/client.c:38: warning: passing argument 2 of 'connect' from incompatible pointer type
+o/Users/admin/Downloads/CVOCV/client.c:21: warning: unused variable 'x'
+o/Users/admin/Downloads/CVOCV/client.c: In function 'close_connection':
+o/Users/admin/Downloads/CVOCV/client.c:60: warning: control reaches end of non-void function
+lSLF07#2@45"Compile /Users/admin/Downloads/CVOCV/client.c297034144#297034144#0(417"/Users/admin/Downloads/CVOCV/client.c: In function 'connect_client':/Users/admin/Downloads/CVOCV/client.c:38: warning: passing argument 2 of 'connect' from incompatible pointer type/Users/admin/Downloads/CVOCV/client.c:21: warning: unused variable 'x'/Users/admin/Downloads/CVOCV/client.c: In function 'close_connection':/Users/admin/Downloads/CVOCV/client.c:60: warning: control reaches end of non-void function3(22@62"Passing argument 2 of 'connect' from incompatible pointer type297034144#69#114#0(6@37"/Users/admin/Downloads/CVOCV/client.c297033648#38#0#38#0#56"passing argument * of '*' from incompatible pointer type0(22@19"Unused variable 'x'297034144#183#71#0(6@37"/Users/admin/Downloads/CVOCV/client.c297033648#21#0#21#0#19"unused variable '*'0(22@40"Control reaches end of non-void function297034144#325#92#0(6@37"/Users/admin/Downloads/CVOCV/client.c297033648#60#0#60#0#40"control reaches end of non-void function0(0#0#37"/Users/admin/Downloads/CVOCV/client.c4300882208#1029"    cd /Users/admin/Downloads/CVOCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/CVOCV.hmap -F/Users/admin/Downloads/CVOCV/build/Debug -I/Users/admin/Downloads/CVOCV/build/Debug/include -Ilibs/opencv/include -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources/i386 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-ajwxcdqopbmqckbadqbqdryrhiih/CVOCV_Prefix.pch -c /Users/admin/Downloads/CVOCV/client.c -o /Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/client.o0#
+
+CCompileC build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/main.o /Users/admin/Downloads/CVOCV/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s297034142.559149
+e297034143.242668
+r1
+xCompileC
+xbuild/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/main.o
+x/Users/admin/Downloads/CVOCV/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@43"Compile /Users/admin/Downloads/CVOCV/main.m297034142#297034143#0(0"0(0#0#35"/Users/admin/Downloads/CVOCV/main.m4300882208#1035"    cd /Users/admin/Downloads/CVOCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/CVOCV.hmap -F/Users/admin/Downloads/CVOCV/build/Debug -I/Users/admin/Downloads/CVOCV/build/Debug/include -Ilibs/opencv/include -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources/i386 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -include /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-cbquboukxyorypbtrqmzolapeeud/CVOCV_Prefix.pch -c /Users/admin/Downloads/CVOCV/main.m -o /Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/main.o0#
+
+CCompileC build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/tracker.o /Users/admin/Downloads/CVOCV/tracker.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s297010295.066234
+e297010295.258735
+r0
+xCompileC
+xbuild/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/tracker.o
+x/Users/admin/Downloads/CVOCV/tracker.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+o/Users/admin/Downloads/CVOCV/tracker.cpp:8:23: error: OpenCV/cv.h: No such file or directory
+o/Users/admin/Downloads/CVOCV/tracker.cpp:9:28: error: OpenCV/highgui.h: No such file or directory
+oIn file included from /Users/admin/Downloads/CVOCV/tracker.cpp:7:
+o/Users/admin/Downloads/CVOCV/tracker.h:21: error: 'CvMouseCallback' has not been declared
+o/Users/admin/Downloads/CVOCV/tracker.cpp:12: error: 'CvMouseCallback' has not been declared
+o/Users/admin/Downloads/CVOCV/tracker.cpp: In constructor 'Tracker::Tracker(char*, int, int, float, float)':
+o/Users/admin/Downloads/CVOCV/tracker.cpp:56: error: 'capture' was not declared in this scope
+o/Users/admin/Downloads/CVOCV/tracker.cpp:56: error: 'cvCaptureFromCAM' was not declared in this scope
+o/Users/admin/Downloads/CVOCV/tracker.cpp:57: error: 'cvNamedWindow' was not declared in this scope
+o/Users/admin/Downloads/CVOCV/tracker.cpp:58: error: 'cvSetMouseCallback' was not declared in this scope
+o/Users/admin/Downloads/CVOCV/tracker.cpp:59: error: 'cvCreateTrackbar' was not declared in this scope
+o/Users/admin/Downloads/CVOCV/tracker.cpp: In member function 'void Tracker::moveWindow(int, int)':
+o/Users/admin/Downloads/CVOCV/tracker.cpp:69: error: 'cvMoveWindow' was not declared in this scope
+o/Users/admin/Downloads/CVOCV/tracker.cpp: In member function 'void Tracker::nextFrame()':
+o/Users/admin/Downloads/CVOCV/tracker.cpp:73: error: 'capture' was not declared in this scope
+o/Users/admin/Downloads/CVOCV/tracker.cpp:73: error: 'cvQueryFrame' was not declared in this scope
+o/Users/admin/Downloads/CVOCV/tracker.cpp: In member function 'void Tracker::displayImage()':
+o/Users/admin/Downloads/CVOCV/tracker.cpp:187: error: 'cvShowImage' was not declared in this scope
+o/Users/admin/Downloads/CVOCV/tracker.cpp: In member function 'void Tracker::cleanUp()':
+o/Users/admin/Downloads/CVOCV/tracker.cpp:233: error: 'capture' was not declared in this scope
+o/Users/admin/Downloads/CVOCV/tracker.cpp:233: error: 'cvReleaseCapture' was not declared in this scope
+o/Users/admin/Downloads/CVOCV/tracker.cpp:234: error: 'cvDestroyWindow' was not declared in this scope
+lSLF07#2@48"Compile /Users/admin/Downloads/CVOCV/tracker.cpp297010295#297010295#0(2103"/Users/admin/Downloads/CVOCV/tracker.cpp:8:23: error: OpenCV/cv.h: No such file or directory/Users/admin/Downloads/CVOCV/tracker.cpp:9:28: error: OpenCV/highgui.h: No such file or directoryIn file included from /Users/admin/Downloads/CVOCV/tracker.cpp:7:/Users/admin/Downloads/CVOCV/tracker.h:21: error: 'CvMouseCallback' has not been declared/Users/admin/Downloads/CVOCV/tracker.cpp:12: error: 'CvMouseCallback' has not been declared/Users/admin/Downloads/CVOCV/tracker.cpp: In constructor 'Tracker::Tracker(char*, int, int, float, float)':/Users/admin/Downloads/CVOCV/tracker.cpp:56: error: 'capture' was not declared in this scope/Users/admin/Downloads/CVOCV/tracker.cpp:56: error: 'cvCaptureFromCAM' was not declared in this scope/Users/admin/Downloads/CVOCV/tracker.cpp:57: error: 'cvNamedWindow' was not declared in this scope/Users/admin/Downloads/CVOCV/tracker.cpp:58: error: 'cvSetMouseCallback' was not declared in this scope/Users/admin/Downloads/CVOCV/tracker.cpp:59: error: 'cvCreateTrackbar' was not declared in this scope/Users/admin/Downloads/CVOCV/tracker.cpp: In member function 'void Tracker::moveWindow(int, int)':/Users/admin/Downloads/CVOCV/tracker.cpp:69: error: 'cvMoveWindow' was not declared in this scope/Users/admin/Downloads/CVOCV/tracker.cpp: In member function 'void Tracker::nextFrame()':/Users/admin/Downloads/CVOCV/tracker.cpp:73: error: 'capture' was not declared in this scope/Users/admin/Downloads/CVOCV/tracker.cpp:73: error: 'cvQueryFrame' was not declared in this scope/Users/admin/Downloads/CVOCV/tracker.cpp: In member function 'void Tracker::displayImage()':/Users/admin/Downloads/CVOCV/tracker.cpp:187: error: 'cvShowImage' was not declared in this scope/Users/admin/Downloads/CVOCV/tracker.cpp: In member function 'void Tracker::cleanUp()':/Users/admin/Downloads/CVOCV/tracker.cpp:233: error: 'capture' was not declared in this scope/Users/admin/Downloads/CVOCV/tracker.cpp:233: error: 'cvReleaseCapture' was not declared in this scope/Users/admin/Downloads/CVOCV/tracker.cpp:234: error: 'cvDestroyWindow' was not declared in this scope16(4@38"OpenCV/cv.h: No such file or directory297010295#0#93#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#8#0#8#0#28"*: No such file or directory0(4@43"OpenCV/highgui.h: No such file or directory297010295#93#98#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#9#0#9#0#28"*: No such file or directory0(4@39"'CvMouseCallback' has not been declared297010295#257#90#2(7@62"In file included from /Users/admin/Downloads/CVOCV/tracker.cpp297010295#18446744073709551615#0#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#7#0#7#0#0"0(13@81"'CvMouseCallback' has not been declared in /Users/admin/Downloads/CVOCV/tracker.h297010295#18446744073709551615#0#0(6@38"/Users/admin/Downloads/CVOCV/tracker.h297010291#21#0#21#0#0"0(6@38"/Users/admin/Downloads/CVOCV/tracker.h297010291#21#0#21#0#25"'*' has not been declared0(4@39"'CvMouseCallback' has not been declared297010295#347#92#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#12#0#12#0#25"'*' has not been declared0(4@40"'capture' was not declared in this scope297010295#547#93#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#56#0#56#0#34"'*' was not declared in this scope0(4@49"'cvCaptureFromCAM' was not declared in this scope297010295#640#102#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#56#0#56#0#34"'*' was not declared in this scope0(4@46"'cvNamedWindow' was not declared in this scope297010295#742#99#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#57#0#57#0#34"'*' was not declared in this scope0(4@51"'cvSetMouseCallback' was not declared in this scope297010295#841#104#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#58#0#58#0#34"'*' was not declared in this scope0(4@49"'cvCreateTrackbar' was not declared in this scope297010295#945#102#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#59#0#59#0#34"'*' was not declared in this scope0(4@45"'cvMoveWindow' was not declared in this scope297010295#1146#98#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#69#0#69#0#34"'*' was not declared in this scope0(4@40"'capture' was not declared in this scope297010295#1334#93#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#73#0#73#0#34"'*' was not declared in this scope0(4@45"'cvQueryFrame' was not declared in this scope297010295#1427#98#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#73#0#73#0#34"'*' was not declared in this scope0(4@44"'cvShowImage' was not declared in this scope297010295#1618#98#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#187#0#187#0#34"'*' was not declared in this scope0(4@40"'capture' was not declared in this scope297010295#1804#94#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#233#0#233#0#34"'*' was not declared in this scope0(4@49"'cvReleaseCapture' was not declared in this scope297010295#1898#103#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#233#0#233#0#34"'*' was not declared in this scope0(4@48"'cvDestroyWindow' was not declared in this scope297010295#2001#102#0(6@40"/Users/admin/Downloads/CVOCV/tracker.cpp296864600#234#0#234#0#34"'*' was not declared in this scope0(0#0#40"/Users/admin/Downloads/CVOCV/tracker.cpp4300882208#1091"    cd /Users/admin/Downloads/CVOCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/CVOCV.hmap -F/Users/admin/Downloads/CVOCV/build/Debug -I/Users/admin/Downloads/CVOCV/build/Debug/include -Ilibs/opencv/include -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources/i386 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources -D__MACOSX_CORE__ -lpthread -isysroot /Developer/SDKs/MacOSX10.5.sdk -include /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-hdsxtcgusxunwldfdfxacmuuamiv/CVOCV_Prefix.pch -c /Users/admin/Downloads/CVOCV/tracker.cpp -o /Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/tracker.o1#
+
+CCopyStringsFile /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s296609574.609882
+e296609576.233385
+r1
+xCopyStringsFile
+x/Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings296609574#296609576#0(0"0(0#0#60"/Users/admin/Downloads/CVOCV/English.lproj/InfoPlist.strings4300882208#344"    cd /Users/admin/Downloads/CVOCV    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/CVOCV.app/Contents/Resources/Icon.icns Icon.icns
+s296609576.233567
+e296609576.593754
+r1
+xCpResource
+xbuild/Debug/CVOCV.app/Contents/Resources/Icon.icns
+xIcon.icns
+lSLF07#2@14"Copy Icon.icns296609576#296609576#0(0"0(0#0#38"/Users/admin/Downloads/CVOCV/Icon.icns4300882208#293"    cd /Users/admin/Downloads/CVOCV    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/admin/Downloads/CVOCV/Icon.icns /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources0#
+
+CCpResource build/Debug/CVOCV.app/Contents/Resources/README.txt README.txt
+s296609576.234738
+e296609576.542091
+r1
+xCpResource
+xbuild/Debug/CVOCV.app/Contents/Resources/README.txt
+xREADME.txt
+lSLF07#2@15"Copy README.txt296609576#296609576#0(0"0(0#0#39"/Users/admin/Downloads/CVOCV/README.txt4300882208#294"    cd /Users/admin/Downloads/CVOCV    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/admin/Downloads/CVOCV/README.txt /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources0#
+
+CCpResource build/Debug/CVOCV.app/Contents/Resources/UPDATES.txt UPDATES.txt
+s296609576.235266
+e296609576.568234
+r1
+xCpResource
+xbuild/Debug/CVOCV.app/Contents/Resources/UPDATES.txt
+xUPDATES.txt
+lSLF07#2@16"Copy UPDATES.txt296609576#296609576#0(0"0(0#0#40"/Users/admin/Downloads/CVOCV/UPDATES.txt4300882208#295"    cd /Users/admin/Downloads/CVOCV    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/admin/Downloads/CVOCV/UPDATES.txt /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources0#
+
+CCpResource build/Debug/CVOCV.app/Contents/Resources/libs libs
+s296609576.234216
+e296609579.487279
+r1
+xCpResource
+xbuild/Debug/CVOCV.app/Contents/Resources/libs
+xlibs
+lSLF07#2@9"Copy libs296609576#296609579#0(0"0(0#0#33"/Users/admin/Downloads/CVOCV/libs4300882208#288"    cd /Users/admin/Downloads/CVOCV    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/admin/Downloads/CVOCV/libs /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources0#
+
+CLd /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/MacOS/CVOCV normal i386
+s297043232.657471
+e297043232.876287
+r1
+xLd
+x/Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/MacOS/CVOCV
+xnormal
+xi386
+lSLF07#2@76"Link /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/MacOS/CVOCV297043232#297043232#0(0"0(0#0#0"4300882208#615"    cd /Users/admin/Downloads/CVOCV    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/llvm-g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/admin/Downloads/CVOCV/build/Debug -F/Users/admin/Downloads/CVOCV/build/Debug -filelist /Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CVOCV.LinkFileList -mmacosx-version-min=10.6 libs/opencv/lib/osx/libOpenCV.a -framework Cocoa -framework QTKit -framework CoreVideo -framework OpenGL -framework Quartz -framework CoreFoundation -o /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/MacOS/CVOCV0#
+
+CProcessInfoPlistFile /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Info.plist Info.plist
+s296609574.603735
+e296609574.608630
+r1
+xProcessInfoPlistFile
+x/Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist296609574#296609574#0(0"0(0#0#39"/Users/admin/Downloads/CVOCV/Info.plist4300882208#268"    cd /Users/admin/Downloads/CVOCV    builtin-infoPlistUtility Info.plist -genpkginfo /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-ajwxcdqopbmqckbadqbqdryrhiih/CVOCV_Prefix.pch.gch CVOCV_Prefix.pch normal i386 c com.apple.compilers.llvmgcc42
+s297034140.060034
+e297034140.606998
+r1
+xProcessPCH
+x/var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-ajwxcdqopbmqckbadqbqdryrhiih/CVOCV_Prefix.pch.gch
+xCVOCV_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@27"Precompile CVOCV_Prefix.pch297034140#297034140#0(0"0(0#0#45"/Users/admin/Downloads/CVOCV/CVOCV_Prefix.pch4300882208#945"    cd /Users/admin/Downloads/CVOCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/CVOCV.hmap -F/Users/admin/Downloads/CVOCV/build/Debug -I/Users/admin/Downloads/CVOCV/build/Debug/include -Ilibs/opencv/include -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources/i386 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -c /Users/admin/Downloads/CVOCV/CVOCV_Prefix.pch -o /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-ajwxcdqopbmqckbadqbqdryrhiih/CVOCV_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-astwdtszesqdcmcpobpolflzskis/CVOCV_Prefix.pch.gch CVOCV_Prefix.pch normal i386 c com.apple.compilers.llvmgcc42
+s297024260.727601
+e297024260.853058
+r1
+xProcessPCH
+x/var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-astwdtszesqdcmcpobpolflzskis/CVOCV_Prefix.pch.gch
+xCVOCV_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@27"Precompile CVOCV_Prefix.pch297024260#297024260#0(0"0(0#0#45"/Users/admin/Downloads/CVOCV/CVOCV_Prefix.pch6215864083588408320#945"    cd /Users/admin/Downloads/CVOCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/CVOCV.hmap -F/Users/admin/Downloads/CVOCV/build/Debug -I/Users/admin/Downloads/CVOCV/build/Debug/include -Ilibs/opencv/include -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources/i386 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.5.sdk -c /Users/admin/Downloads/CVOCV/CVOCV_Prefix.pch -o /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-astwdtszesqdcmcpobpolflzskis/CVOCV_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-bdwjrdyeooeghdhivclnrebhwuyo/CVOCV_Prefix.pch.gch CVOCV_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s296609579.488066
+e296609596.711095
+r1
+xProcessPCH
+x/var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-bdwjrdyeooeghdhivclnrebhwuyo/CVOCV_Prefix.pch.gch
+xCVOCV_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@27"Precompile CVOCV_Prefix.pch296609579#296609596#0(0"0(0#0#45"/Users/admin/Downloads/CVOCV/CVOCV_Prefix.pch4300882208#955"    cd /Users/admin/Downloads/CVOCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/CVOCV.hmap -F/Users/admin/Downloads/CVOCV/build/Debug -I/Users/admin/Downloads/CVOCV/build/Debug/include -Ilibs/opencv/include -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources/i386 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.5.sdk -c /Users/admin/Downloads/CVOCV/CVOCV_Prefix.pch -o /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-bdwjrdyeooeghdhivclnrebhwuyo/CVOCV_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-cbquboukxyorypbtrqmzolapeeud/CVOCV_Prefix.pch.gch CVOCV_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s297034133.971680
+e297034140.059815
+r1
+xProcessPCH
+x/var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-cbquboukxyorypbtrqmzolapeeud/CVOCV_Prefix.pch.gch
+xCVOCV_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@27"Precompile CVOCV_Prefix.pch297034133#297034140#0(0"0(0#0#45"/Users/admin/Downloads/CVOCV/CVOCV_Prefix.pch4300882208#955"    cd /Users/admin/Downloads/CVOCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/CVOCV.hmap -F/Users/admin/Downloads/CVOCV/build/Debug -I/Users/admin/Downloads/CVOCV/build/Debug/include -Ilibs/opencv/include -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources/i386 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -c /Users/admin/Downloads/CVOCV/CVOCV_Prefix.pch -o /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-cbquboukxyorypbtrqmzolapeeud/CVOCV_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-digsfdsjscderzabclmrstjkutdj/CVOCV_Prefix.pch.gch CVOCV_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvmgcc42
+s296609579.489382
+e296609599.156488
+r1
+xProcessPCH++
+x/var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-digsfdsjscderzabclmrstjkutdj/CVOCV_Prefix.pch.gch
+xCVOCV_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF07#2@27"Precompile CVOCV_Prefix.pch296609579#296609599#0(95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done0(0#0#45"/Users/admin/Downloads/CVOCV/CVOCV_Prefix.pch4300882208#1013"    cd /Users/admin/Downloads/CVOCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/CVOCV.hmap -F/Users/admin/Downloads/CVOCV/build/Debug -I/Users/admin/Downloads/CVOCV/build/Debug/include -Ilibs/opencv/include -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources/i386 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources -D__MACOSX_CORE__ -lpthread -isysroot /Developer/SDKs/MacOSX10.5.sdk -c /Users/admin/Downloads/CVOCV/CVOCV_Prefix.pch -o /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-digsfdsjscderzabclmrstjkutdj/CVOCV_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-ekmuhmnnmrkpzmfidjcjhdqtqwse/CVOCV_Prefix.pch.gch CVOCV_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvmgcc42
+s297034133.972543
+e297034142.559012
+r1
+xProcessPCH++
+x/var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-ekmuhmnnmrkpzmfidjcjhdqtqwse/CVOCV_Prefix.pch.gch
+xCVOCV_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF07#2@27"Precompile CVOCV_Prefix.pch297034133#297034142#0(95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done0(0#0#45"/Users/admin/Downloads/CVOCV/CVOCV_Prefix.pch4300882208#1013"    cd /Users/admin/Downloads/CVOCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/CVOCV.hmap -F/Users/admin/Downloads/CVOCV/build/Debug -I/Users/admin/Downloads/CVOCV/build/Debug/include -Ilibs/opencv/include -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources/i386 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources -D__MACOSX_CORE__ -lpthread -isysroot /Developer/SDKs/MacOSX10.6.sdk -c /Users/admin/Downloads/CVOCV/CVOCV_Prefix.pch -o /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-ekmuhmnnmrkpzmfidjcjhdqtqwse/CVOCV_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-hdsxtcgusxunwldfdfxacmuuamiv/CVOCV_Prefix.pch.gch CVOCV_Prefix.pch normal i386 c++ com.apple.compilers.llvmgcc42
+s297010199.859147
+e297010200.006796
+r1
+xProcessPCH++
+x/var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-hdsxtcgusxunwldfdfxacmuuamiv/CVOCV_Prefix.pch.gch
+xCVOCV_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF07#2@27"Precompile CVOCV_Prefix.pch297010199#297010200#0(95"i686-apple-darwin10-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done0(0#0#45"/Users/admin/Downloads/CVOCV/CVOCV_Prefix.pch3419202321905706496#1003"    cd /Users/admin/Downloads/CVOCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/CVOCV.hmap -F/Users/admin/Downloads/CVOCV/build/Debug -I/Users/admin/Downloads/CVOCV/build/Debug/include -Ilibs/opencv/include -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources/i386 -I/Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/DerivedSources -D__MACOSX_CORE__ -lpthread -isysroot /Developer/SDKs/MacOSX10.5.sdk -c /Users/admin/Downloads/CVOCV/CVOCV_Prefix.pch -o /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-hdsxtcgusxunwldfdfxacmuuamiv/CVOCV_Prefix.pch.gch0#
+
+CStripNIB /Users/admin/Downloads/CVOCV/English.lproj/MainMenu.nib
+s297043232.166940
+e297043232.268253
+r1
+xStripNIB
+x/Users/admin/Downloads/CVOCV/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib297043232#297043232#0(0"0(0#0#55"/Users/admin/Downloads/CVOCV/English.lproj/MainMenu.nib4300882208#263"    cd /Users/admin/Downloads/CVOCV    /Developer/usr/bin/ibtool --strip /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/admin/Downloads/CVOCV/English.lproj/MainMenu.nib0#
+
+CTouch /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app
+s297043232.876380
+e297043232.879099
+r1
+xTouch
+x/Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app
+lSLF07#2@56"Touch /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app297043232#297043232#0(0"0(0#0#0"4300882208#109"    cd /Users/admin/Downloads/CVOCV    /usr/bin/touch -c /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app0#
+
