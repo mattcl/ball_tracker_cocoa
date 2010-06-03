@@ -14,6 +14,7 @@
 #import "CGImageWrapper.h"
 #import "Tracker.h"
 #import <sys/time.h>
+#import "Reproject3D.h"
 
 extern "C" int connect_client(int* sockfd, char * buffer, const char * ip_addr);
 extern "C" int read_client(int sockfd, char * buffer);
@@ -22,6 +23,7 @@ extern "C" int close_connection(int sockfd);
 
 @implementation CVOCVController
 
+static BOOL enableVideo;
 static BOOL connected;
 static BOOL transmit;
 static BOOL updated;
@@ -50,6 +52,7 @@ static IplImage *capturedImage;
 
 - (void)awakeFromNib
 {	
+	reprojector = [[Reproject3D alloc] init];
 	s = 0;
 	transmit = NO;
 	grabTop = YES;
@@ -72,7 +75,7 @@ static IplImage *capturedImage;
     //Find a device  
     QTCaptureDevice *videoDevice = [QTCaptureDevice defaultInputDeviceWithMediaType:QTMediaTypeVideo];
     success = [videoDevice open:&error];
-    videoDevice = [[QTCaptureDevice inputDevices] objectAtIndex:6];
+    videoDevice = [[QTCaptureDevice inputDevices] objectAtIndex:7];
     NSLog(@"Selecting device %@", videoDevice);
     [videoDevice open:&error];
     if (error != nil) {
@@ -92,7 +95,7 @@ static IplImage *capturedImage;
             NSLog(@"Couldn't set up the output device. I'm leaving now.");
             return;
 		}
-        [mSideCaptureView setCaptureSession:sideCaptureSession];
+        //[mSideCaptureView setCaptureSession:sideCaptureSession];
         //Looks like we're good to go.
         [sideCaptureSession startRunning];
 	}
@@ -111,7 +114,7 @@ static IplImage *capturedImage;
     //Find a device  
     videoDevice = [QTCaptureDevice defaultInputDeviceWithMediaType:QTMediaTypeVideo];
     success = [videoDevice open:&error];
-    videoDevice = [[QTCaptureDevice inputDevices] objectAtIndex:7];
+    videoDevice = [[QTCaptureDevice inputDevices] objectAtIndex:6];
     NSLog(@"Selecting device %@", videoDevice);
     [videoDevice open:&error];
     if (error != nil) {
@@ -131,7 +134,7 @@ static IplImage *capturedImage;
             NSLog(@"Couldn't set up the output device. I'm leaving now.");
             return;
 		}
-        [mTopCaptureView setCaptureSession:topCaptureSession];
+        //[mTopCaptureView setCaptureSession:topCaptureSession];
         //Looks like we're good to go.
         [topCaptureSession startRunning];
 	}
@@ -145,37 +148,45 @@ static IplImage *capturedImage;
 	[sideTracker initImages];
 	[sideTracker loadHistogramAndMask];
 	
-	[sideTracker setVmin:117 vMax:255 sMin:184];
+	[sideTracker setVmin:117 vMax:255 sMin:174];
 	[sideVMinSlider setIntValue:117];
 	[sideVMaxSlider setIntValue:255];
-	[sideSMinSlider setIntValue:184];
+	[sideSMinSlider setIntValue:174];
 	
 	[topTracker setVmin:117 vMax:255 sMin:184];
 	[topVMinSlider setIntValue:117];
 	[topVMaxSlider setIntValue:255];
 	[topSMinSlider setIntValue:184];
 	
-	[topTracker setOffsetsX:1.0 andY:1.0 andZ:1.0];
+	[topTracker setOffsetsX:2.3495 andY:0.340 andZ:1.29];
 	[topXOffsetField setFloatValue:[topTracker getXOffset]];
 	[topYOffsetField setFloatValue:[topTracker getYOffset]];
 	[topZOffsetField setFloatValue:[topTracker getZOffset]];
 	
-	[topTracker setPMW:0.096 h:0.096];
-	[topPMHField setFloatValue:[topTracker getHPM]];
-	[topPMWField setFloatValue:[topTracker getWPM]];
+	//[topTracker setPMW:0.096 h:0.096];
+	//[topPMHField setFloatValue:[topTracker getHPM]];
+	//[topPMWField setFloatValue:[topTracker getWPM]];
 	
-	[sideTracker setOffsetsX:2.21 andY:0.0 andZ:0.32];
+	[sideTracker setOffsetsX:2.209 andY:2.55 andZ:0.27];
 	[sideXOffsetField setFloatValue:[sideTracker getXOffset]];
 	[sideYOffsetField setFloatValue:[sideTracker getYOffset]];
 	[sideZOffsetField setFloatValue:[sideTracker getZOffset]];
 	
-	[sideTracker setPMW:0.01325 h:0.009291];
-	[sidePMHField setFloatValue:[sideTracker getHPM]];
-	[sidePMWField setFloatValue:[sideTracker getWPM]];
+	//[sideTracker setPMW:0.009325 h:0.008291];
+	//[sidePMHField setFloatValue:[sideTracker getHPM]];
+	//[sidePMWField setFloatValue:[sideTracker getWPM]];
 	
 	[conStatFieldCell setStringValue:@"Not Connected"];
 	
 	[self setVideoParameters:nil];
+	
+	[self updateReprojector];
+	
+	[reprojector setCenterPointsForCamera1:cvPoint2D32f(149.9492060878939412, 108.1980667440229666) 
+								andCamera2:cvPoint2D32f(149.9492060878939412, 108.1980667440229666)];
+	
+	[reprojector setFocalLengthsForCamera1:cvPoint2D32f(264.8570031668078855, 264.2436888796606809) 
+								andCamera2:cvPoint2D32f(264.8570031668078855, 264.2436888796606809)];
 	
 	gettimeofday(&tim, NULL);
 	startTime = tim.tv_sec+(tim.tv_usec/1000000.0);
@@ -183,6 +194,8 @@ static IplImage *capturedImage;
 	dt = startTime;
 	
 	[dtFieldCell setDoubleValue:dt];
+	
+	enableVideo = [enableVideoCell state] == NSOnState;
 	
 }
 
@@ -288,7 +301,9 @@ static CGImageRef CreateCGImageFromPixelBuffer(CVImageBufferRef inImage, OSType 
 			rawZ = center.y;
 		}
 		
-		[self texturizeImage:resultImage];
+		if (enableVideo) {
+			[self texturizeImage:resultImage];
+		}
 		
 		CVPixelBufferUnlockBaseAddress((CVPixelBufferRef)videoFrame, 0);
 	} else {
@@ -333,7 +348,9 @@ static CGImageRef CreateCGImageFromPixelBuffer(CVImageBufferRef inImage, OSType 
 			rawY = center.y;
 		}
 		
-		[self texturizeImage2:resultImage];
+		if (enableVideo) {
+			[self texturizeImage2:resultImage];
+		}
 		
 		
 		CVPixelBufferUnlockBaseAddress((CVPixelBufferRef)videoFrame, 0);
@@ -343,16 +360,19 @@ static CGImageRef CreateCGImageFromPixelBuffer(CVImageBufferRef inImage, OSType 
 		grabTop = YES;
 		grabSide = YES;
 		
-		centerX = [sideTracker getWPM] * (160 - rawX) + [sideTracker getXOffset];
-		centerY = [topTracker getHPM] * (120 - rawY) + [topTracker getYOffset];
-		centerZ = [sideTracker getHPM] * (120 - rawZ) + [sideTracker getZOffset];
+		//centerX = [sideTracker getWPM] * (160 - rawX) + [sideTracker getXOffset];
+//		centerY = [topTracker getHPM] * (120 - rawY) + [topTracker getYOffset];
+//		centerZ = [sideTracker getHPM] * (120 - rawZ) + [sideTracker getZOffset];
+		
+		CvPoint3D32f ballCenter = [reprojector reprojectFromPoint1:[sideTracker getBallCenter] andPoint2:[topTracker getBallCenter]];
+		centerX = -ballCenter.x;
+		centerY = -ballCenter.y;
+		centerZ = -ballCenter.z;
 		
 		gettimeofday(&tim, NULL);
 		curTime = (tim.tv_sec+(tim.tv_usec/1000000.0)) - startTime;
-		dt = curTime - lastTime;
+		dt = 1.0/(curTime - lastTime);
 		lastTime = curTime;
-		[dtFieldCell setDoubleValue:dt];
-		[timeCell setDoubleValue:curTime];
 		
 		[self setPositionDisplayWithX:centerX andY:centerY andZ:centerZ];
 		sprintf(buffer,"%35d %35d %35d %35d %35d %35d %35d   \n",
@@ -366,8 +386,20 @@ static CGImageRef CreateCGImageFromPixelBuffer(CVImageBufferRef inImage, OSType 
 		
 		s++;
 		
+		[ballWidthCell setFloatValue:[sideTracker getBallSize].width];
+		[ballHeightCell setFloatValue:[sideTracker getBallSize].height];
+		
+		if (centerX < 0.8) {
+			transmit = NO;
+			[transStateFieldCell setStringValue:@"Not Transmitting"];
+		}
+		
 		if(connected && transmit) {
-			write_client(newsockfd, buffer, strlen(buffer));
+			if ([topTracker shouldIgnore] || [sideTracker shouldIgnore]) {
+				//NSLog(@"ignoring");
+			} else {
+				write_client(newsockfd, buffer, strlen(buffer));
+			}
 		}
 	}
 }
@@ -397,6 +429,16 @@ static CGImageRef CreateCGImageFromPixelBuffer(CVImageBufferRef inImage, OSType 
 	[zPosCell setFloatValue:z];
 }
 
+-(void)updateReprojector
+{
+	[reprojector setOffsetsForCamera1:cvPoint3D32f(-[sideTracker getXOffset],
+												   -[sideTracker getZOffset],
+												   -[sideTracker getYOffset]) 
+						   andCamera2:cvPoint3D32f(-[topTracker getXOffset],
+												   [topTracker getYOffset],
+												   -[topTracker getXOffset])];
+}
+
 // tracker code here
 -(IBAction)setTopOffsets:(id)sender 
 {
@@ -405,6 +447,7 @@ static CGImageRef CreateCGImageFromPixelBuffer(CVImageBufferRef inImage, OSType 
 	float zo = [topZOffsetField floatValue];
 	
 	[topTracker setOffsetsX:xo andY:yo andZ:zo];
+	[self updateReprojector];
 }
 
 -(IBAction)setSideOffsets:(id)sender
@@ -414,6 +457,7 @@ static CGImageRef CreateCGImageFromPixelBuffer(CVImageBufferRef inImage, OSType 
 	float zo = [sideZOffsetField floatValue];
 	
 	[sideTracker setOffsetsX:xo andY:yo andZ:zo];
+	[self updateReprojector];
 }
 
 -(IBAction)setTopThresh:(id)sender 
@@ -479,10 +523,22 @@ static CGImageRef CreateCGImageFromPixelBuffer(CVImageBufferRef inImage, OSType 
 
 -(IBAction)setVideoParameters:(id)sender
 {
+	enableVideo = [enableVideoCell state] == NSOnState;
 	BOOL bp = [backprojectCell state] == NSOnState;
 	BOOL dw = [windowCell state] == NSOnState;
-	[topTracker setBackproject:bp andDrawWindow:dw];
-	[sideTracker setBackproject:bp andDrawWindow:dw];
+	BOOL ds = [showSizeCell state] == NSOnState;
+	[topTracker setBackproject:bp andDrawWindow:dw andDrawSize:ds];
+	[sideTracker setBackproject:bp andDrawWindow:dw andDrawSize:ds];
+}
+
+-(IBAction)calibrateTopCenter:(id)sender
+{
+	[topTracker setCenterIgnore];
+}
+
+-(IBAction)calibrateSideCenter:(id)sender
+{
+	[sideTracker setCenterIgnore];
 }
 
 @end

@@ -21,6 +21,7 @@
 	hranges_arr[1] = 180;
 	start_clock = clock();
 	backproject_mode = YES;
+	draw_size = NO;
 	vmin = 10;
 	vmax = 200;
 	smin = 1;
@@ -122,8 +123,14 @@ static CvScalar hsv2rgb( float hue ) {
 		
 		
 		// draw a circle around the center of the object
-		cvCircle(img, cvPointFrom32f(track_box.center), 10, CV_RGB(225, 0, 0), 2, CV_AA, 0);
+		cvCircle(img, cvPointFrom32f(track_box.center), 2, CV_RGB(225, 0, 0), 2, CV_AA, 0);
 		
+		if(draw_size) {
+			// draw a rectangle representing the size of the object
+			CvSize2D32f size = track_box.size;
+			CvPoint pt = cvPoint((int) (track_box.center.x - size.width/2), (int) track_box.center.y - size.height/2);
+			cvRectangle(img, pt, cvPoint(pt.x + size.width, pt.y + size.height), CV_RGB(0, 255, 0), 2, CV_AA, 0);
+		}
 		
 		if (!first_iter) {
 			// compute dx and dy for this iteration
@@ -188,10 +195,11 @@ static CvScalar hsv2rgb( float hue ) {
 	hPM = hpm;
 }
 
--(void) setBackproject:(BOOL)value andDrawWindow:(BOOL)value2
+-(void) setBackproject:(BOOL)value andDrawWindow:(BOOL)value2 andDrawSize:(BOOL)value3
 {
 	backproject_mode = value;
 	show_tracking_window = value2;
+	draw_size = value3;
 }
 
 -(CvPoint2D32f) getBallCenter
@@ -200,6 +208,14 @@ static CvScalar hsv2rgb( float hue ) {
 		return track_box.center;
 	
 	return cvPoint2D32f(0,0);
+}
+
+-(CvSize2D32f) getBallSize
+{
+	if(track_object)
+		return track_box.size;
+	
+	return cvSize2D32f(0,0);
 }
 
 -(float) getXOffset
@@ -235,6 +251,22 @@ static CvScalar hsv2rgb( float hue ) {
 -(float) getDy
 {
 	return dy;
+}
+
+-(void)setCenterIgnore
+{
+	centerIgnore = [self getBallCenter];
+}
+
+-(CvPoint2D32f)getCenterIgnore
+{
+	return centerIgnore;
+}
+
+-(BOOL)shouldIgnore
+{
+	CvPoint2D32f cntr = [self getBallCenter];
+	return (centerIgnore.x == cntr.x || centerIgnore.y == cntr.y);
 }
 
 

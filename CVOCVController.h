@@ -15,6 +15,7 @@
 
 #import "CVOCVView.h"
 #import "Tracker.h"
+#import "Reproject3D.h"
 
 @interface CVOCVController : NSObject 
 {
@@ -42,16 +43,22 @@
 	IBOutlet NSButton    *connectButton;
 	IBOutlet NSButton    *closeButton;
 	IBOutlet NSButton    *transButton;
+	IBOutlet NSButton    *sideCalibrateCenterButton;
+	IBOutlet NSButton    *topCalibrateCenterButton;
 	
 	IBOutlet NSTextFieldCell *xPosCell;
 	IBOutlet NSTextFieldCell *yPosCell;
 	IBOutlet NSTextFieldCell *zPosCell;
+	IBOutlet NSTextFieldCell *ballWidthCell;
+	IBOutlet NSTextFieldCell *ballHeightCell;
 	IBOutlet NSTextFieldCell *timeCell;
 	IBOutlet NSTextFieldCell *dtFieldCell;
 	IBOutlet NSTextFieldCell *conStatFieldCell;
 	IBOutlet NSTextFieldCell *transStateFieldCell;
 	
+	IBOutlet NSButtonCell    *enableVideoCell;
 	IBOutlet NSButtonCell    *backprojectCell;
+	IBOutlet NSButtonCell    *showSizeCell;
 	IBOutlet NSButtonCell    *windowCell;
 	
     IBOutlet CVOCVView *sideOpenGLView;
@@ -74,6 +81,8 @@
 	
 	Tracker* sideTracker;
 	Tracker* topTracker;
+	
+	Reproject3D *reprojector;
 	
 	int newsockfd;
 	char buffer[256];
@@ -120,8 +129,12 @@
 
 -(IBAction)setVideoParameters:(id)sender;
 
+-(IBAction)calibrateTopCenter:(id)sender;
+-(IBAction)calibrateSideCenter:(id)sender;
+
 -(void) texturizeImage:(IplImage*) image;
 -(void) texturizeImage2:(IplImage*) image;
 -(void) setPositionDisplayWithX:(float) x andY:(float) y andZ:(float) z;
+-(void) updateReprojector;
 
 @end

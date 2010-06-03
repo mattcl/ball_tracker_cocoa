@@ -10,6 +10,7 @@
 		84CF41A711B43ACD00EEE4C4 /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 84CF41A611B43ACD00EEE4C4 /* client.c */; };
 		84D1F89111B46415006D26F2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D1F89011B46415006D26F2 /* CoreFoundation.framework */; };
 		84D557B711B405C6004A6769 /* Tracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D557B611B405C6004A6769 /* Tracker.m */; };
+		84E059A311B7B4520006C845 /* Reproject3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E059A211B7B4520006C845 /* Reproject3D.m */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -39,6 +40,8 @@
 		84D1F89011B46415006D26F2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
 		84D557B511B405C6004A6769 /* Tracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracker.h; sourceTree = "<group>"; };
 		84D557B611B405C6004A6769 /* Tracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tracker.m; sourceTree = "<group>"; };
+		84E059A111B7B4520006C845 /* Reproject3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reproject3D.h; sourceTree = "<group>"; };
+		84E059A211B7B4520006C845 /* Reproject3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reproject3D.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* CVOCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CVOCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E698ED0BA872BA00382716 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
@@ -126,6 +129,8 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				84E059A111B7B4520006C845 /* Reproject3D.h */,
+				84E059A211B7B4520006C845 /* Reproject3D.m */,
 			);
 			name = CVOCV;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 				E7BA5E7D0F1ECB2700CCFC0E /* CGImageWrapper.m in Sources */,
 				84D557B711B405C6004A6769 /* Tracker.m in Sources */,
 				84CF41A711B43ACD00EEE4C4 /* client.c in Sources */,
+				84E059A311B7B4520006C845 /* Reproject3D.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

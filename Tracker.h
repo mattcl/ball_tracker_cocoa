@@ -26,9 +26,11 @@
 	int track_object;
 	CvRect selection;
 	CvPoint origin;
+	CvPoint2D32f centerIgnore;
 	
 	BOOL backproject_mode;
 	BOOL show_tracking_window;
+	BOOL draw_size;
 	
 	int hdims;
 	float hranges_arr[2];
@@ -48,11 +50,15 @@
 -(void) processFrame:(IplImage *) frame;
 -(void) loadHistogramAndMask;
 -(void) reset;
+-(void) setCenterIgnore;
+-(CvPoint2D32f) getCenterIgnore;
+-(BOOL) shouldIgnore;
 -(void) setOffsetsX:(float) xo andY:(float) yo andZ:(float) zo;
 -(void) setVmin:(int)vm vMax:(int)vmx sMin:(int)sm;
 -(void) setPMW:(float) wpm h:(float)hpm;
--(void) setBackproject:(BOOL)value andDrawWindow:(BOOL)value2;
+-(void) setBackproject:(BOOL)value andDrawWindow:(BOOL)value2 andDrawSize:(BOOL)value3;
 -(CvPoint2D32f) getBallCenter;
+-(CvSize2D32f) getBallSize;
 -(float) getXOffset;
 -(float) getYOffset;
 -(float) getZOffset;
