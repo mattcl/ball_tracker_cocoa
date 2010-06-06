@@ -193,7 +193,7 @@ static IplImage *capturedImage;
 	lastTime = startTime;
 	dt = startTime;
 	
-	[dtFieldCell setDoubleValue:dt];
+	//[dtFieldCell setDoubleValue:dt];
 	
 	enableVideo = [enableVideoCell state] == NSOnState;
 	

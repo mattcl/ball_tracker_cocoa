@@ -4,10 +4,10 @@ df54aee730d610826d1a6e8b57827dde 4878dca243107ec7ffa58a017e0832c3 ffffffffffffff
 770d50f38b645f6dc465c815db0e4a8b 3e31cbaed18858c88d4cbc84e2e97741 ffffffffffffffffffffffffffffffff 6076 /Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CGImageWrapper.o
 770d50f3846821f7c465c815db0f217c fe5393b10451029815fc42debf140b12 ffffffffffffffffffffffffffffffff 43992 /Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CVOCVView.o
 770d50f3ce1bf65ac465c815db0fbc57 ce33878714480b4243d14e0fc5620f76 ffffffffffffffffffffffffffffffff 90128 /Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/OpenCVProcessor.o
-8734d84c668696f7910e80634e59039a 611fb087bbde72dc92b1b5b5cfbcf740 ffffffffffffffffffffffffffffffff 87792 /Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CVOCVController.o
+8734d84c6686ce30910e80634e590394 611fb087bbde72dc92b1b5b5cfbcf740 ffffffffffffffffffffffffffffffff 87664 /Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/CVOCVController.o
 770d50f3c39a0e24c465c815db0e4a57 b6b8e411c56b39f11305efacfde4e0f5 ffffffffffffffffffffffffffffffff 1788 /Users/admin/Downloads/CVOCV/build/CVOCV.build/Debug/CVOCV.build/Objects-normal/i386/main.o
-9d6fa731eb4fd6246b059175bac98fbf cee3f88a29ee00bab6cbafb9a4560fea ffffffffffffffffffffffffffffffff 102 /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app
-43886a94f5a84e97d3359a4be8ec64a7 72cc81cbc06a9083fbea7cb967abc49f ffffffffffffffffffffffffffffffff 3408696 /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/MacOS/CVOCV
+9d6fa731eb4fd01b6b059175bac98fb1 cee3f88a29ee00bab6cbafb9a4560fea ffffffffffffffffffffffffffffffff 102 /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app
+43886a94f5a81650d3359a4be8ec64a9 72cc81cbc06a9083fbea7cb967abc49f ffffffffffffffffffffffffffffffff 3408696 /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/MacOS/CVOCV
 00000000425d299200000000000005e2 df54aee774e152e86d1a6e8b578218a4 ffffffffffffffffffffffffffffffff 1352048 /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-ajwxcdqopbmqckbadqbqdryrhiih/CVOCV_Prefix.pch.gch
 00000000425d299200000000000005e2 8734d84c62a0e3c6910e80634e583e45 ffffffffffffffffffffffffffffffff 69680848 /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-ekmuhmnnmrkpzmfidjcjhdqtqwse/CVOCV_Prefix.pch.gch
 00000000425d299200000000000005e2 770d50f389fdd83bc465c815db0e4e29 ffffffffffffffffffffffffffffffff 58249008 /var/folders/Tz/TzG88ZLz2Ra7FU+BYog1rU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CVOCV_Prefix-cbquboukxyorypbtrqmzolapeeud/CVOCV_Prefix.pch.gch
@@ -15,7 +15,7 @@ df54aee730d610826d1a6e8b57827dde 4878dca243107ec7ffa58a017e0832c3 ffffffffffffff
 00000000000000000000000000000000 10b5f55401f3d416b24040c6dce401e0 ffffffffffffffffffffffffffffffff 2357 /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/README.txt
 00000000000000000000000000000000 d7c20117575126a36040df467aefebc4 ffffffffffffffffffffffffffffffff 102 /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/libs
 00000000495505bf00000000000000ce 359e55b01abd062976c125e258260fed ffffffffffffffffffffffffffffffff 206 /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/English.lproj/InfoPlist.strings
-000000004c07b3f40000000000000088 598a4fb5628b5803123554f48fb72194 ffffffffffffffffffffffffffffffff 43523 /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/English.lproj/MainMenu.nib
+000000004c07ed0c0000000000000088 598a4fb5628b5803123554f48fb72194 ffffffffffffffffffffffffffffffff 41948 /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/English.lproj/MainMenu.nib
 00000000000000000000000000000000 56e87b1cffe19253e76fca842b85e06b ffffffffffffffffffffffffffffffff 8 /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/PkgInfo
 00000000000000000000000000000000 56e87b1cffe19253e76fca842b85e06b ffffffffffffffffffffffffffffffff 1001 /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Info.plist
 00000000000000000000000000000000 d20d9f96e65ac5396c565423face6135 ffffffffffffffffffffffffffffffff 181471 /Users/admin/Downloads/CVOCV/build/Debug/CVOCV.app/Contents/Resources/Icon.icns
